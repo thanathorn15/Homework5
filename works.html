@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Kanit:wght@200&family=Montserrat:wght@100;200;300;400;600&family=Roboto+Slab:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      html {
+        font-family: "Heebo", sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+      nav li,
+      a {
+        list-style: none;
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      header {
+        margin-left: 370px;
+      }
+
+      .box-works {
+        width: 800px;
+        margin: auto;
+      }
+
+      #years {
+        background: #142850;
+        border-radius: 16px;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 2px;
+      }
+      #type {
+        color: #8695a4;
+        margin-left: 10px;
+      }
+      hr {
+        margin: 20px;
+      }
+      .dashboard {
+        display: flex;
+      }
+      .portraits {
+        display: flex;
+      }
+      .malayalam {
+        display: flex;
+      }
+      .components {
+        display: flex;
+      }
+
+      .container-dashboard,
+      .container-portaits,
+      .container-malayalam,
+      .container-components {
+        margin-left: 20px;
+      }
+
+      footer {
+        font-size: 32px;
+        text-align: center;
+      }
+      footer p {
+        font-size: 16px;
+      }
+      @media (max-width:800px) {
+        header h1{
+          margin-left: -350px;
+        }
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a style="color: #ff6464" href="works.html">Works</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <h1 style="font-size: 44px">Works</h1>
+    </header>
+
+    <div class="box-works">
+      <div class="dashboard">
+        <div class="img-dashboard">
+          <img src="./pic/Rectangle 30.png" alt="" />
+        </div>
+        <div class="container-dashboard">
+          <p style="font-size: 30px">Designing Dashboards</p>
+          <span id="years">2020</span>
+          <span id="type">Dashboard</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="portraits">
+        <div class="img-portraits">
+          <img src="./pic/Rectangle 32.png" alt="" />
+        </div>
+        <div class="container-portaits">
+          <p style="font-size: 30px">Vibrant Portraits of 2020</p>
+          <span id="years">2018</span>
+          <span id="type">Illustration</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="malayalam">
+        <div class="img-malayalam">
+          <img src="./pic/Rectangle 34.png" alt="" />
+        </div>
+        <div class="container-malayalam">
+          <p style="font-size: 30px">36 Days of Malayalam type</p>
+          <span id="years">2018</span>
+          <span id="type">Typography</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="components">
+        <div class="img-components">
+          <img src="./pic/Rectangle 40.png" alt="" />
+        </div>
+        <div class="container-components">
+          <p style="font-size: 30px">Components</p>
+          <span id="years">2018</span>
+          <span id="type">Components, Design</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <footer>
+      <div class="footer-icon">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Copyright ©2020 All rights reserved</p>
+    </footer>
+  </body>
+</html>

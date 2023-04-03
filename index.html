@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework5</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Kanit:wght@200&family=Montserrat:wght@100;200;300;400;600&family=Roboto+Slab:wght@100;200;300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      html {
+        font-family: "Heebo", sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul {
+        display: flex;
+        justify-content: flex-end;
+      }
+      nav li,
+      a {
+        list-style: none;
+        text-decoration: none;
+        padding: 10px;
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .box-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .Profile img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-left: 100px;
+      }
+      .header {
+        width: 480px;
+        margin-top: 50px;
+        padding: 20px;
+      }
+      .header h1 {
+        font-size: 44px;
+      }
+      .download button {
+        width: 200px;
+        background-color: #ff6464;
+        color: white;
+        height: 50px;
+        border: none;
+        margin-top: 20px;
+        font-size: 20px;
+      }
+      .box-content {
+        background: #edf7fa;
+      }
+      .box-content p {
+        margin: 15px 0;
+      }
+      .recent {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 40px;
+      }
+      .container-content {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+      }
+      .container-content h3 {
+        font-size: 26px;
+      }
+      .container-content span {
+        font-size: 18px;
+      }
+      .design {
+        width: 400px;
+        height: 250px;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+        padding: 10px 8px;
+        background: #ffffff;
+        margin: 0 20px;
+      }
+      .creating {
+        width: 400px;
+        height: 250px;
+        box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+        border-radius: 4px;
+        padding: 10px 8px;
+        background: #ffffff;
+      }
+      .box-works {
+        width: 800px;
+        margin: auto;
+      }
+      #years {
+        background: #142850;
+        border-radius: 16px;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 2px;
+      }
+
+      #type {
+        color: #8695a4;
+        margin-left: 10px;
+      }
+      hr {
+        margin: 20px;
+      }
+      .dashboard {
+        display: flex;
+      }
+      .portraits {
+        display: flex;
+      }
+      .malayalam {
+        display: flex;
+      }
+      .container-dashboard,
+      .container-portaits,
+      .container-malayalam {
+        margin-left: 20px;
+      }
+
+      footer {
+        font-size: 32px;
+        text-align: center;
+      }
+      footer p {
+        font-size: 16px;
+      }
+
+      @media (max-width:800px) {
+        .box-header {
+          flex-wrap: wrap-reverse;
+        }
+        .container-content {
+          flex-wrap: wrap;
+          margin: 20px;
+        }
+        .Profile  {
+          margin-left: -100px;
+        }
+        .box-works {
+          flex-direction: column;
+        }
+        .download {
+          text-align: center;
+        }
+        .box-works p:first-child {
+          margin-left: 15px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="index.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="box-header">
+      <div class="header">
+        <h1>Hi, I am John, Creative Technologist</h1>
+        <br />
+        <p>
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+          sint. Velit officia consequat duis enim velit mollit. Exercitation
+          veniam consequat sunt nostrud amet.
+        </p>
+        <div class="download">
+          <button>Download Resume</button>
+        </div>
+      </div>
+      <div class="Profile">
+        <img src="./pic/Ellipse 1.png" alt="" />
+      </div>
+    </div>
+
+    <div class="box-content">
+      <div class="recent">
+        <span style="font-size: 22px">Recent posts</span>
+        <span style="color: #00a8cc">View all</span>
+      </div>
+      <div class="container-content">
+        <div class="design">
+          <h3>Making a design system from scratch</h3>
+          <span>12 Feb 2020</span>
+          <span>|</span>
+          <span>Design, Pattern</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+
+        <div class="creating">
+          <h3>Creating pixel perfect icons in Figma</h3>
+          <span>12 Feb 2020</span>
+          <span>|</span>
+          <span>Figma, Icon Design</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="box-works">
+      <p style="font-size: 22px; margin-bottom: 15px;">Featured works</p>
+      <div class="dashboard">
+        <div class="img-dashboard">
+          <img src="./pic/Rectangle 30.png" alt="" />
+        </div>
+        <div class="container-dashboard">
+          <p style="font-size: 30px">Designing Dashboards</p>
+          <span id="years">2020</span>
+          <span id="type">Dashboard</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="portraits">
+        <div class="img-portraits">
+          <img src="./pic/Rectangle 32.png" alt="" />
+        </div>
+        <div class="container-portaits">
+          <p style="font-size: 30px">Vibrant Portraits of 2020</p>
+          <span id="years">2018</span>
+          <span id="type">Illustration</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="malayalam">
+        <div class="img-malayalam">
+          <img src="./pic/Rectangle 34.png" alt="" />
+        </div>
+        <div class="container-malayalam">
+          <p style="font-size: 30px">36 Days of Malayalam type</p>
+          <span id="years">2018</span>
+          <span id="type">Typography</span>
+          <p>
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <footer>
+      <div class="footer-icon">
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Copyright ©2020 All rights reserved</p>
+    </footer>
+  </body>
+</html>
